@@ -1,5 +1,5 @@
 import mongoose, { version } from "mongoose";
-
+// This is blog schema
 const BlogSchema = mongoose.Schema({
     title: { type: String, required: true },
     description: { type: String, trim: true },
